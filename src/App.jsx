@@ -121,10 +121,12 @@
 //  </div>
 //  );
 // }
+import Nav from "./components/navbar";
 import Form from"./components/forms";
 function App(){
     return(
         <div>
+            <Nav></Nav>
             <Form />
         </div>
     ); 
